@@ -1,0 +1,15 @@
+função fibonacci(n: inteiro): inteiro {
+    se (n <= 1) {
+        retornar n;
+    }
+    retornar fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+função principal(): vazio {
+    escrever("Fibonacci de 0 a 9:\n");
+    para (i: inteiro = 0; i < 10; i = i + 1) {
+        escrever(fibonacci(i));
+        escrever(" ");
+    }
+    escrever("\n");
+}

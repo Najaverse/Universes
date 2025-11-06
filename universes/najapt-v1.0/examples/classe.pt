@@ -1,0 +1,17 @@
+classe Retangulo {
+    largura: inteiro;
+    altura: inteiro;
+    
+    função área(): inteiro {
+        retornar este.largura * este.altura;
+    }
+}
+
+função principal(): vazio {
+    r: Retangulo = novo Retangulo();
+    r.largura = 5;
+    r.altura = 3;
+    escrever("Área: ");
+    escrever(r.área());
+    escrever("\n");
+}

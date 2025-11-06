@@ -1,0 +1,3 @@
+função principal(): vazio {
+    escrever("Olá, Mundo!\n");
+}
