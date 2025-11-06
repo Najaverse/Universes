@@ -1,0 +1,79 @@
+{
+  "type": "universe",
+  "metadata": {
+    "id": "pt-BR-simples-v1.0",
+    "name": "Português Brasileiro Simplificado",
+    "version": "1.0.0",
+    "creator": "NajaScript Team",
+    "creator_github": "najaverse",
+    "description": "Dialeto português simplificado para NajaScript com palavras em português natural",
+    "language_code": "pt-BR",
+    "category": "educational",
+    "tags": ["português", "brasil", "educação", "simplificado"],
+    "license": "MIT"
+  },
+  "compatibility": {
+    "min_naja_version": "0.5.0",
+    "max_naja_version": "2.0.0",
+    "platforms": ["linux", "windows", "macos"]
+  },
+  "keywords": {
+    "funcao": "fun",
+    "inteiro": "int",
+    "real": "float",
+    "logico": "bool",
+    "texto": "string",
+    "vazio": "void",
+    "se": "if",
+    "senao": "else",
+    "enquanto": "while",
+    "para": "for",
+    "retorna": "return",
+    "array": "array",
+    "dicionario": "dict",
+    "estrutura": "struct",
+    "classe": "class",
+    "trait": "trait"
+  },
+  "operators": {
+    "e": "&&",
+    "ou": "||",
+    "nao": "!",
+    "igual": "==",
+    "diferente": "!=",
+    "maior": ">",
+    "menor": "<",
+    "maior_igual": ">=",
+    "menor_igual": "<="
+  },
+  "types": {
+    "inteiro": "int",
+    "real": "float",
+    "logico": "bool",
+    "texto": "string",
+    "vazio": "void"
+  },
+  "builtins": {
+    "escreva": "print",
+    "escreval": "println",
+    "leia": "input",
+    "tamanho": "len",
+    "tipo": "typeof"
+  },
+  "syntax_rules": {
+    "statement_end": ";",
+    "block_start": "{",
+    "block_end": "}",
+    "case_sensitive": false,
+    "comment_single": "//",
+    "comment_multi_start": "/*",
+    "comment_multi_end": "*/"
+  },
+  "features": {
+    "generics": true,
+    "comptime": true,
+    "oop": true,
+    "traits": true,
+    "modules": true
+  }
+}
