@@ -1,0 +1,7 @@
+// Primeiro programa em Português no Najaverse!
+funcao principal(): vazio {
+    escreval("Olá, Mundo!");
+    escreval("Bem-vindo ao Najaverse");
+    escreval("");
+    escreval("Este é o dialeto Português Brasileiro Simplificado");
+}

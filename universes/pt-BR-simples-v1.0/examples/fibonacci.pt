@@ -1,0 +1,19 @@
+funcao fibonacci(inteiro n): inteiro {
+    se (n <= 1) {
+        retorna n;
+    }
+    retorna fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+funcao principal(): vazio {
+    escreval("Sequência Fibonacci:");
+    escreval("");
+    
+    para (inteiro i = 0; i < 15; i = i + 1) {
+        escreva(fibonacci(i));
+        se (i < 14) {
+            escreva(", ");
+        }
+    }
+    escreval("");
+}

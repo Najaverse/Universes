@@ -1,0 +1,32 @@
+// Exemplo de classe em Português Brasileiro
+
+classe Pessoa {
+    texto nome;
+    inteiro idade;
+    
+    funcao init(texto n, inteiro i): vazio {
+        nome = n;
+        idade = i;
+    }
+    
+    funcao apresentar(): vazio {
+        escreval("Olá! Meu nome é " + nome);
+        escreval("Tenho " + idade + " anos");
+    }
+    
+    funcao ehMaiorDeIdade(): logico {
+        retorna idade >= 18;
+    }
+}
+
+funcao principal(): vazio {
+    Pessoa joao;
+    joao.init("João Silva", 25);
+    joao.apresentar();
+    
+    escreval("");
+    
+    se (joao.ehMaiorDeIdade()) {
+        escreval("João é maior de idade");
+    }
+}
