@@ -1,0 +1,10 @@
+{
+  "id": "en-test-v2",
+  "name": "English Test Universe v2",
+  "version": "0.2.0",
+  "creator": "Test Creator",
+  "creator_github": "testcreator",
+  "description": "Another test universe",
+  "language_code": "en",
+  "license": "MIT"
+}
