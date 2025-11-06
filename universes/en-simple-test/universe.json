@@ -1,0 +1,10 @@
+{
+  "id": "en-simple-test",
+  "name": "English Simple Test",
+  "version": "0.1.0",
+  "creator": "Test User",
+  "creator_github": "testuser",
+  "description": "Test universe for direct main push",
+  "language_code": "en",
+  "license": "MIT"
+}
